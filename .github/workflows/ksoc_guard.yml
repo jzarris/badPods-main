@@ -2,7 +2,7 @@ name: KSOC Check CI
 on:
   pull_request:
     branches:
-    - 'main'
+    - 'master'
 jobs:
   ksoc-guard:
     permissions:
