@@ -1,5 +1,5 @@
 # Bad Pods
-
+ 
 ![](.github/images/Title.jpg)
 
 A collection of manifests that create pods with different elevated privileges. Quickly demonstrate the impact of allowing security sensitive pod attributes like `hostNetwork`, `hostPID`, `hostPath`, `hostIPC`, and `privileged`. 
