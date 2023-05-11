@@ -6,7 +6,7 @@ A collection of manifests that create pods with different elevated privileges. Q
 
 For additional background, see our blog post: [Bad Pods: Kubernetes Pod Privilege Escalation](https://labs.bishopfox.com/tech-blog/bad-pods-kubernetes-pod-privilege-escalation).     
 ## Contents
-
+ 
 * [The Bad pods line-up](#The-bad-pods-line-up)
 * [Prerequisites](#Prerequisites)
 * [Organization](#Organization)
