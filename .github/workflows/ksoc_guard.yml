@@ -5,7 +5,11 @@ on: [ push ]
 jobs:
   ksoc-guard:
     permissions:
+      # required for all workflows
       security-events: write
+      # only required for workflows in private repositories
+      actions: read
+      contents: read
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
