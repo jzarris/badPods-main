@@ -7,6 +7,7 @@ jobs:
   ksoc-guard:
     permissions:
       contents: read
+      security-events: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
